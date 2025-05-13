@@ -1,6 +1,35 @@
-
 body {
-  font-family: Georgia, serif;
-  background: #f3efe3;
-  color: #4c3d2c;
+    font-family: 'Georgia', serif;
+    background: url('../images/paper_texture.jpg') repeat;
+    color: #2c1e1e;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+main {
+    padding: 2rem;
+    background-color: rgba(255, 255, 240, 0.85);
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
 }
